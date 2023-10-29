@@ -1,0 +1,44 @@
+.react-multi-carousel-dot button {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  opacity: 1;
+  box-shadow: none;
+  transition: #5b9bf3 0.5s;
+  border-color: #a0a1ad;
+  padding: 0;
+  margin: 0;
+  margin-right: 6px;
+  background-color: #5b9bf3 0.1;
+  cursor: pointer;
+}
+
+.react-multi-carousel-dot button:hover {
+  background-color: #5b9bf3;
+}
+.react-multi-carousel-dot--active button {
+  background: white;
+  border-color: white;
+  border-radius: 6.25rem;
+}
+
+.gd-carousel-wrapper {
+  position: relative;
+}
+
+.gd-carousel {
+  position: unset;
+
+  .react-multiple-carousel__arrow {
+    position: absolute;
+  }
+
+  .react-multiple-carousel__arrow--left {
+    left: calc(-3% + 1px);
+  }
+
+  .react-multiple-carousel__arrow--right {
+    right: calc(-3% + 1px);
+  }
+}
